@@ -168,6 +168,12 @@ table {
 .main-box__left__form__input--type__checkbox input:checked {
   background-color: blue;
 }
+.main-box__left__form__input__alert {
+  display: none;
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+  color: red;
+}
 .main-box__left__form__button {
   display: flex;
   flex-direction: row;

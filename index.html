@@ -32,27 +32,30 @@
               for="mortgageAmount">Mortgage
               Amount</label>
             <input id="mortgageAmount" type="text">
+            <p class="main-box__left__form__input__alert">This field is required</p>
           </div>
           <!-- Mortgage Term & Rate -->
           <div class="main-box__left__form__input main-box__left__form__input--row">
             <div class="main-box__left__form__input--small">
               <label class=" main-box__left__form__label" for="mortgageTerm">Mortgage Term</label>
               <input id="mortgageTerm" type="text">
+              <p class="main-box__left__form__input__alert">This field is required</p>
             </div>
             <div class="main-box__left__form__input--small"> <label class="main-box__left__form__label"
                 for="mortgageRate">Interest Rate</label>
               <input id="mortgageRate" type="text">
+              <p class="main-box__left__form__input__alert">This field is required</p>
             </div>
           </div>
           <!-- Mortgage Type -->
           <div class="main-box__left__form__input main-box__left__form__input--type">
             <label class=" main-box__left__form__label" for="mortgageType">Mortgage Type</label>
-            <div class="main-box__left__form__input--type__checkbox"><input type="checkbox"> Repayment</div>
-            <div class="main-box__left__form__input--type__checkbox"><input type="checkbox">Interest Only</div>
+            <div class="main-box__left__form__input--type__checkbox"><input class="main-box__left__form__input--type__checkbox--holder"  type="checkbox"> Repayment</div>
+            <div class="main-box__left__form__input--type__checkbox"><input  class="main-box__left__form__input--type__checkbox--holder" type="checkbox">Interest Only</div>
           </div>
 
           <!-- BUTTON CALCULATE -->
-          <button type="submit" class="main-box__left__form__button"><img class="main-box__left__form__button__image"
+          <button type="" class="main-box__left__form__button"><img class="main-box__left__form__button__image"
               src="assets/images/icon-calculator.svg" alt=""> Calculate Repayments</button>
 
         </form>
@@ -66,6 +69,8 @@
     </div>
   </div>
 
+
+  <script src="script.js"></script>
 </body>
 
 </html>

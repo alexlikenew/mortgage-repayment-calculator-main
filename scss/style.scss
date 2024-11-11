@@ -164,6 +164,12 @@ table {
 						}
 					}
 				}
+				&__alert{
+					display: none;
+					margin-top: 0.8rem;
+					font-size: 1.4rem;
+					color: red;
+				}
 			}
 			&__button {
 				display: flex;
@@ -184,6 +190,7 @@ table {
 					margin-right: 1rem;
 				}
 			}
+
 		}
 	}
 	&__right {
