@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="main-box">
+      <div class="main-box__left">
+        <div class="main-box__left__heading">
+          <div class="main-box__left__heading--left">Mortgage Calculator</div>
+          <div class="main-box__left__heading--right"><button>Clear All</button></div>
+        </div>
+        <form class="main-box__left__form" action="">
+          <!-- Mortgage
+              Amount -->
+          <div class="main-box__left__form__input"> <label class=" main-box__left__form__label"
+              for="mortgageAmount">Mortgage
+              Amount</label>
+            <input id="mortgageAmount" type="text">
+          </div>
+          <!-- Mortgage Term & Rate -->
+          <div class="main-box__left__form__input main-box__left__form__input--row">
+            <div class="main-box__left__form__input--small">
+              <label class=" main-box__left__form__label" for="mortgageTerm">Mortgage Term</label>
+              <input id="mortgageTerm" type="text">
+            </div>
+            <div class="main-box__left__form__input--small"> <label class="main-box__left__form__label"
+                for="mortgageRate">Mortgage Rate</label>
+              <input id="mortgageRate" type="text">
+            </div>
+          </div>
+          <!-- Mortgage Type -->
+          <div class="main-box__left__form__input"> <label class=" main-box__left__form__label"
+              for="mortgageType">Mortgage Type</label>
+            <div class="main-box__left__form__checkbox"> Repayment</div>
+            <div class="main-box__left__form__checkbox">Interest Only</div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <button type="submit">Calculate Repayments</button>
+
+        </form>
+      </div>
+      <div class="main-box__right">
+        <img src="" alt="" class="main-box__right__image">
+        <p class="main-box__right__heading">Results shown here</p>
+        <p class="main-box__right__text">Complete the form and click “calculate repayments” to see what your monthly
+          repayments would be.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

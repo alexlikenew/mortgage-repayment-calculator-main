@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(202, 86%, 94%);
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.6rem;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+}
+.main-box__left {
+  width: 50%;
+  padding: 3rem 2.6rem;
+  background-color: white;
+}
+.main-box__left__heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 3rem 0;
+}
+.main-box__left__heading--left {
+  width: 70%;
+  font-weight: 700;
+}
+.main-box__left__heading--right {
+  width: 30%;
+  text-align: end;
+}
+.main-box__left__heading--right button {
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+}
+.main-box__left__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-box__left__form .main-box__left__form__label {
+  display: inline-block;
+  padding: 0.8rem 0;
+  font-size: 1.4rem;
+  width: 100%;
+}
+.main-box__left__form input {
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.main-box__left__form__input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0.8rem 0;
+  width: 100%;
+}
+.main-box__left__form__input--row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-box__left__form__input--small {
+  width: 47%;
+}
+.main-box__left__form__checkbox {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  margin: 0.4rem;
+  font-weight: 700;
+}
+.main-box__left__form button {
+  width: 60%;
+  background-color: hsl(61, 70%, 52%);
+  padding: 1rem;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.main-box__right {
+  width: 50%;
+  background-color: hsl(202, 55%, 16%);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
