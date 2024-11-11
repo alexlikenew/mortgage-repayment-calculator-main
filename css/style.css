@@ -80,6 +80,8 @@ table {
 .main-box__left__heading--left {
   width: 70%;
   font-weight: 700;
+  font-size: 2rem;
+  color: hsl(202, 55%, 16%);
 }
 .main-box__left__heading--right {
   width: 30%;
@@ -89,23 +91,36 @@ table {
   text-decoration: none;
   background-color: transparent;
   border-bottom: 1px solid gray;
+  color: hsl(200, 26%, 54%);
+  font-weight: 500;
+}
+.main-box__left__heading--right button:hover {
+  font-weight: 700;
 }
 .main-box__left__form {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.main-box__left__form .main-box__left__form__label {
+.main-box__left__form__label {
+  width: 100%;
   display: inline-block;
   padding: 0.8rem 0;
   font-size: 1.4rem;
-  width: 100%;
+  color: hsl(200, 26%, 54%);
+  font-weight: 500;
 }
 .main-box__left__form input {
   width: 100%;
   padding: 1rem;
   position: relative;
   z-index: 1;
+  border-radius: 4px;
+  border: 1px solid hsl(200, 26%, 54%);
+  cursor: pointer;
+}
+.main-box__left__form input:hover {
+  border: 2px solid hsl(200, 26%, 54%);
 }
 .main-box__left__form__input {
   display: flex;
@@ -121,23 +136,74 @@ table {
 .main-box__left__form__input--small {
   width: 47%;
 }
-.main-box__left__form__checkbox {
+.main-box__left__form__input--type__checkbox {
   width: 100%;
+  display: flex;
+  flex-direction: row;
   padding: 1rem;
   border: 1px solid hsl(203, 41%, 72%);
   border-radius: 5px;
-  margin: 0.4rem;
+  margin: 0.4rem 0;
   font-weight: 700;
+  color: hsl(202, 55%, 16%);
 }
-.main-box__left__form button {
-  width: 60%;
+.main-box__left__form__input--type__checkbox:hover {
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+.main-box__left__form__input--type__checkbox input {
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid hsl(203, 41%, 72%);
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.main-box__left__form__input--type__checkbox input:checked {
+  background-color: blue;
+}
+.main-box__left__form__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-top: 2rem;
   background-color: hsl(61, 70%, 52%);
-  padding: 1rem;
-  border-radius: 20px;
+  padding: 1.4rem 0;
+  border-radius: 28px;
   font-weight: 700;
+  font-size: 1.6rem;
+}
+.main-box__left__form__button:hover {
+  background-color: hsla(61, 70%, 52%, 0.384);
+}
+.main-box__left__form__button__image {
+  margin-right: 1rem;
 }
 .main-box__right {
   width: 50%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(202, 55%, 16%);
   color: white;
+}
+.main-box__right__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 1.6rem 0;
+}
+.main-box__right__text {
+  text-align: center;
+  color: hsl(200, 26%, 54%);
 }/*# sourceMappingURL=style.css.map */
